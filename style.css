@@ -1,0 +1,34 @@
+body{
+    background-color: gray;
+}
+
+.kalkulator{
+    padding: 10px;
+    background-color: lavender;
+    width: 130px;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 3px 3px black;
+}
+
+.screen{
+    width: 120px;
+}
+
+.bn{
+    background-color: black;
+    color: white;
+    width: 27px;
+    display: flex;
+    text-align:right;
+}
+
+.table{
+    display: flex;
+}
+
+.nol{
+    background-color: black;
+    color: white;
+}
