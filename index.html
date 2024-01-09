@@ -20,6 +20,12 @@
         </form>
         <table class="table">
             <tr>
+                <td><input type="button" class="bn" value="%" onclick="document.calculatrice.textview.value+='%'"></td>
+                <td><input type="button" class="bn" value="^2" onclick="document.calculatrice.textview.value= eval(document.calculatrice.textview.value * document.calculatrice.textview.value)"></td>
+                <td><input type="button" class="bn" value="⅟" onclick="document.calculatrice.textview.value= eval(1 / document.calculatrice.textview.value)"></td>
+                
+            </tr>
+            <tr>
                 <td><input type="button" class="bn" value="C" onclick="document.calculatrice.textview.value=''"></td>
                 <td><input type="button" class="bn" value="⇐" onclick="del()"></td>
                 <td><input type="button" class="bn" value="√" onclick="document.calculatrice.textview.value= Math.sqrt(document.calculatrice.textview.value)"></td>
